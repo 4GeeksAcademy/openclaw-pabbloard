@@ -1,29 +1,37 @@
-# USER.md - User Model
+# USER.md - Sobre mi usuario
 
-Store stable user preferences and profile facts as directives that can guide future sessions.
+- **Nombre:** Pabblo    
+- **Cómo llamarlo:** Pabblo
+- **Zona horaria:** America/Santiago (UTC-3 / UTC-4 según horario de verano)
+- **Idioma:** Español (Chile), tuteo, modísmos chilenos no vulgáres
+- **Ubicación:** Chile
 
-Use one directive per entry:
+## Trabajo
+- Consultor funcional / Product manager de soluciones en el área de IA e Innovación
+  de una consultora SAP.
+- Jugador amateur de ténis y Futbol 7
+- Estudiante de Full Stack en 4geeks
+- Trabaja con SAP Business One, migraciones a SAP Grow y desarrollo de productos con IA.
+- Lidera un equipo; le interesan los resultados claros y accionables.
 
-```md
-<!-- observed: YYYY-MM-DD | status: active -->
+## Intereses y proyectos actuales
+- Estudia el programa Full Stack IA en 4Geeks (Python, JavaScript, agentes).
+- Experimenta con agentes propios (este asistente incluido) y automatizaciones.
 
-- Prefer concise progress updates during implementation work.
-```
 
-- Begin each directive with an imperative such as `Always`, `Never`, or `Prefer`.
-- Record the observation date and either `active` or `superseded` on the metadata line.
-- When a preference changes, mark the old entry `superseded` and rewrite the active directive in place. Never append a contradictory active directive.
-- Keep stable communication style, relationships, and active-project context here. Put durable non-profile facts and decisions in `MEMORY.md`.
-- Save this file at the workspace root as `USER.md`. It loads every session with a separate 4,000-character budget.
+## Preferencias de comunicación
+- Respuestas directas, con el resultado primero.
+- Prefiere español, salvo código y términos técnicos.
+- Detesta el relleno; valora que le digas cuando algo es mala idea.
+- Para tareas largas: un aviso inicial y luego el resultado, sin narrar cada paso.
 
-## Directives
+## Horarios
+- Disponible en horario laboral (09:00-18:00 aprox.).
+- Evita notificaciones nocturnas salvo urgencias.
 
-Replace the example below with a real directive and a real observation date before you save this file. Never leave a placeholder directive `active`.
+## Notas
+- _(Agrega aquí lo que vayas aprendiendo: manías, contexto, personas clave.)_
 
-<!-- observed: YYYY-MM-DD | status: active -->
-
-- Prefer ...
-
-## Related
-
-- [Agent workspace](/concepts/agent-workspace)
+---
+Cuanto mejor conozcas a esta persona, mejor ayuda. Pero recuerda: es información
+de alguien, no un expediente. Respétala.
